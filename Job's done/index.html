@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="myDIV" class="header">
+        <h1 id="todolist">To Do List</h1>
+        <input  type="text" id="input-task">
+        <button id="add-task-button" onclick="addtask()">ADD TASK</button>
+</div>
+
+
+        <ul id="task-list">
+
+            <li><input type="checkbox" onclick="lineThrought(this)"><span class="task" >Cleaning</span><button class="delete-btn" onclick=this.parentNode.remove()>X</button ></li>
+            <li><input type="checkbox" onclick="lineThrought(this)"><span class="task" >Washing</span><button class="delete-btn" onclick=this.parentNode.remove()>X</button ></li>
+            <li><input type="checkbox" onclick="lineThrought(this)"><span class="task" >Dusting</span><button class="delete-btn" onclick=this.parentNode.remove()">X</button ></li>
+
+        </ul>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    min-width: 250px;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+    background-color: darkgrey;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the input */
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5%;
+
+}
+li span{
+    width: 250px;
+    text-align: center;
+    box-shadow : 0px 3px;
+
+}
+li button{
+    width: 25px;
+}
+li input{
+    width: 25px;
+}
+
